@@ -1,0 +1,58 @@
+body, html {
+	height:100%;
+}
+
+body {
+  background: white;
+	font-family: 'Work Sans', serif;
+	font-size:18px;
+	line-height:1.5;
+  -webkit-font-smoothing: antialiased;
+  font-weight:300;
+}
+
+h1,h2,h3,h4 {
+	letter-spacing:-1px;
+	margin:0 0 25px;
+	font-family:"NotoSerif", serif;
+}
+
+h1 {
+	font-size:50px;
+}
+h2 {
+	font-size:30px;
+}
+h3 {
+	font-size:28px;
+}
+h4 {
+	font-size:26px;
+}
+
+a {
+	color:darken(#4A90E2, 10%);
+	text-decoration:none;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	border-bottom:1px solid transparent;
+
+	&:hover {
+		border-bottom:1px solid;
+		color:darken(#4A90E2, 40%);
+	}
+}
+
+p {
+	margin:0 0 20px;
+}
+
+small {
+	font-size:80%;
+}
+
+.site {
+	width:90%;
+	margin:0 auto;
+	// padding:10% 0 10% 10%;
+} //.site

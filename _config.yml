@@ -1,4 +1,4 @@
-name: Tech Hive
+name: Mae de Leon
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
